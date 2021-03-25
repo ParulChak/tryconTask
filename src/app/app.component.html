@@ -1,0 +1,33 @@
+<div>
+  <form >
+<div >
+  <div >
+    <label>Name</label>
+    <input type="text" [(ngModel)]="name" name="name">
+  </div>
+  <div>
+    <label>Age Group</label>
+    <select [(ngModel)]="ageGroup" name="ageGroup">
+      <option>Child</option>
+      <option>Teen</option>
+      <option>Adult</option>
+      <option>OldAge</option>
+    </select>
+    <!-- <input type="text" [(ngModal)]="age"> -->
+  </div>
+  <div>
+    <label>Hours</label>
+    <input type="text" [(ngModel)]="hours" name="hours">
+  </div>
+  <div>
+    <label>Age /Date of Birth</label>
+    <input type="text" [(ngModel)]="age" name="age">
+  </div>
+  <div>
+    <label>List of watched movie</label>
+    <input type="text" [(ngModel)]="movies" name="movies">
+  </div>
+</div>
+<button type="submit" (click)="submit()"> submit</button>
+  </form>
+</div>

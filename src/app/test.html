@@ -1,0 +1,50 @@
+<html>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<head>
+    <style>
+        .row{
+            
+             width:40% ;
+              display: flex;
+              border: 1px solid black;
+
+        }
+
+        @media only screen and (max-width:850px) {
+            .row{
+                display: block;
+                border: 1px solid black;
+                              
+                
+            }
+            
+            
+        }
+    </style>
+</head>
+
+<body>
+    <div class="row" >
+        <div class="column">
+            <div style="padding: 5px; "> <img
+                    src="C:\Users\Ayush\Pictures\Saved Pictures\wp2579141-indian-army-wallpaper-hd.jpg"
+                    style=" border: 2px solid black; height: 200px; width:200px"></div>
+        </div>
+        <div class="column">
+            <h3>Lorem Epsum</h3>
+            <p>gkbrkjgbtlrkghtlrkgnrtk r ihgiohr kvherlve ehrcre.  <span id="remove"style="color:blue" onclick="myfunction()"> Readmore...</span> </p>
+           <p id="addtext"></p>
+        </div>
+
+
+    </div>
+    <script>
+        function myfunction(){
+            document.getElementById("addtext").innerHTML="new text added , new text added , new text added , new text added "
+            document.getElementById("remove").remove();
+        }
+    </script>
+</body>
+
+</html>
